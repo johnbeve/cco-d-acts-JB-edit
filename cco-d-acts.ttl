@@ -23,7 +23,7 @@
 :CCO-D-ACTS_00000001 rdf:type owl:Class ;
                rdfs:subClassOf cco:Document ;
                obo:IAO_0000116 "Originally a subclass of document (a subclass of Information Content Entity). Since it takes an input, Information Bearing Artifact is a better genus."@en ;
-               cco:definition "a Document that is intended to be the specified input in a Deontic Document Act. It has a Plan Specification as a part that specifies the intended socio-legal entities that are created through the document (objective specification) and the way in which the Deontic Document Act is to be performed (by signing, by stamping, etc.) (action specification)."@en ;
+               cco:definition "A document that is intended to be the specified input in a Deontic Document Act. It has a Plan Specification as a part that specifies the intended socio-legal entities that are created through the document (objective specification) and the way in which the Deontic Document Act is to be performed (by signing, by stamping, etc.) (action specification)."@en ;
                cco:definition_source "Modified, originally from Mathias Brochhausen (D-Acts Ontology), http://purl.obolibrary.org/obo/IAO_0021007"@en ;
                cco:term_editor "Jonathan M. Vajda"@en ;
                rdfs:label "Document Act Input Document"@en .
@@ -43,7 +43,7 @@
 :CCO-D-ACTS_00000004 rdf:type owl:Class ;
                rdfs:subClassOf obo:BFO_0000023 ;
                obo:IAO_0000116 "This definition attempts to capture \"A role that inheres in an agent and which is externally grounded in the normative expectations that other agents within a social context have concerning how that agent should behave.\" (D-Acts, IAO_0021008) In an effort to be more CCO-conformant, I have followed similar recommendations as Eric Merrell et al. (2021), omitting their condition that the agent must be a member of that group of agents."@en ;
-               cco:definition "a Role that inheres in an Agent and which is externally grounded in the normative expectations of some Group of Agents concerning how that Agent should behave."@en ;
+               cco:definition "A Role that inheres in an Agent and which is externally grounded in the normative expectations of some Group of Agents concerning how that Agent should behave."@en ;
                cco:definition_source "Modified; originally from Mathias Brochhausen & Neil Otte (D-Acts), http://purl.obolibrary.org/obo/IAO_0021008 ('deontic role')"@en ;
                cco:term_editor "Jonathan M. Vajda"@en ;
                rdfs:label "Deontic Role"@en .
@@ -52,7 +52,7 @@
 ###  https://github.com/jonathanvajda/cco-d-acts/CCO-D-ACTS_00000005
 :CCO-D-ACTS_00000005 rdf:type owl:Class ;
                rdfs:subClassOf cco:SocialAct ;
-               cco:definition "a Social Act that creates, revokes, or modifies a Deontic Role."@en ;
+               cco:definition "A Social Act that creates, revokes, or modifies a Deontic Role."@en ;
                cco:definition_source "Modified, originally from Mathias Brochhausen (D-Acts), http://purl.obolibrary.org/obo/IAO_0021009 . Their class is a defined class, equivalent to some Social Act that either 'legally revokes' some 'deontic role' OR 'has_specified_output' some 'deontic role'"@en ;
                cco:term_editor "Jonathan M. Vajda"@en ;
                rdfs:label "Deontic Declaration"@en .
